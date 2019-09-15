@@ -212,3 +212,8 @@ variable "target_group_port" {
   default     = "80"
 }
 
+variable "target_group_type" {
+  description = "The type for the default target group (`ip` or `instance`)"
+  default     = "ip"
+}
+
